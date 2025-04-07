@@ -17,7 +17,7 @@ by_number = driver.find_element(By.XPATH, value='//*[@id="s1746112904"]/main/div
 by_number.click()
 sleep(2)
 number_input = driver.find_element(By.NAME, value="phone_number")
-number_input.send_keys("5520850152", Keys.ENTER)
+number_input.send_keys("", Keys.ENTER)
 sleep(5)
 number_code = input("Please type the code that they sent you: ")
 for index in range(0, 7):
